@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Menu from './img/menu.png'
 import Bag from './img/bag.png'
-import Moisturizer from './img/moisturizer.png'
+import Cosiness from './img/cosiness.png'
 import styled from 'styled-components';
 import { createGlobalStyle } from 'styled-components';
 export const UniversalStyle = createGlobalStyle`
@@ -126,10 +126,10 @@ export default class App extends Component{
         </Top>
         <main>
           <figure>
-            <img src={Moisturizer} alt="Moisturizer" />
+            <img src={Cosiness} alt="cosiness" />
           </figure>
           <section>
-           <h1>PASSION</h1>
+           <h1>COSINESS</h1>
            <h2>$15</h2>
           </section>
           <div>
